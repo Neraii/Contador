@@ -1,0 +1,45 @@
+*{
+box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #d9f4ff;
+    text-align: center;
+}
+
+.titulo{
+    color:darkblue;
+    padding-top: 7rem;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.numero{
+    font-size: 5rem;
+    margin : 3rem 0 1rem;
+}
+
+.botoes{
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+    max-width:350px;
+    gap : 1rem;
+    padding: 1rem;
+}
+
+.botoes button{
+    width:6rem;
+    height: 2rem;
+    border-radius: 5px;
+    background-color: transparent;
+
+}
+
+.botoes button:hover{
+    border: 2px darkblue solid;
+    background-color: white;
+    font-weight: bold;
+}
